@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.8/dist/css/uikit.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.8/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.8/dist/js/uikit-icons.min.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    
+    <style>
+      .footer {
+        background: rgb(255, 255, 255);
+        padding: 10px 0;
+      }
+      .footer a {
+        color: #70726F;
+        font-size: 20px;
+        padding: 10px;
+        border-right: 1px solid #70726F;
+        transition: all .5s ease;
+      }
+      .footer a:first-child {
+        border-left: 1px solid #70726F;
+      }
+      .footer a:hover {
+        color: white;
+      }
+    </style>
+
+    <title>Resume</title>
+  </head>
+  <body>
+      <!--Nav Bar-->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">J. Ian Stewart</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./hobbies.html">Hobbies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./resume.html">Resume</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!--Using UIKit to make my resume-->
+    <h1 class="uk-heading-divider">James Ian Stewart</h1>
+    <hr class="uk-divider-icon">
+
+    <!--Education-->
+    <table class="uk-table">
+      <thead>
+          <tr>
+              <th>Education</th>
+              <th>GPA</th>
+              <th>Graduation</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>University of Colorado Boulder, Major in Computer Science, Minors in Data Science and Business</td>
+              <td>3.984</td>
+              <td>May 2025</td>
+          </tr>
+          <tr>
+              <td>Longmont High School</td>
+              <td>4.6</td>
+              <td>May 2021</td>
+          </tr>
+      </tbody>
+    </table>
+    <hr class="uk-divider-small">
+
+    <!--Honors and Awards-->
+    <table class="uk-table">
+      <thead>
+          <tr>
+              <th>Honors and Awards</th>
+              <th></th>
+              <th>Year Recieved</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Outstanding High School Junior Award from University of Colorado Boulder</td>
+              <td></td>
+              <td>2020</td>
+          </tr>
+          <tr>
+            <td>Advanced Placement Scholar</td>
+            <td></td>
+            <td>2020</td>
+          </tr>
+          <tr>
+            <td>Valedictorial of Longmont High School</td>
+            <td></td>
+            <td>2021</td>
+          </tr>
+          <tr>
+            <td>Dean's List</td>
+            <td></td>
+            <td>Fall 2021, Spring 2022</td>
+          </tr>
+          <tr>
+            <td>Engineering Honors Program</td>
+            <td></td>
+            <td>2021-Present</td>
+          </tr>
+      </tbody>
+    </table>
+    <hr class="uk-divider-small">
+
+    <!--Volunteer Experience-->
+    <table class="uk-table uk-table-middle uk-table-divider">
+      <thead>
+          <tr>
+              <th>Volunteer Experience</th>
+              <th>Description</th>
+              <th>Year</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>National Jewish Hospital, Denver, CO</td>
+              <td>
+                <ul>
+                  <li>Validated a new immunohistochemical stain for the lab, more specifically INSM1, for clinical and research use</li>
+                  <li>This research is used for the diagnosis of patient tumors</li>
+                </ul>	
+              </td>
+              <td>Summer 2020</td>
+          </tr>
+          <tr>
+              <td>National Honor Society, Longmont, CO</td>
+              <td>
+                <ul>
+                  <li>“Trick or Treat Street” during Halloween for the kids in Longmont</li>
+                  <li>Longmont Dia de Los Muertos celebration in 2019</li>
+                  <li>Entertained elderly at Longmont Regent Assisted Living Facility</li>
+                </ul>
+              </td>
+              <td>2019-2021</td>
+          </tr>
+        </tbody>
+      </table>
+
+    <hr class="uk-divider-small">
+
+    <!--Work Experience-->
+    <table class="uk-table uk-table-middle uk-table-divider">
+      <thead>
+          <tr>
+              <th>Work Experience</th>
+              <th>Description</th>
+              <th>Years Worked</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Inta Juice, Longmont, CO</td>
+              <td>
+                <i>Cook and Cleaner</i>
+                <ul>
+                  <li>Obtained and fulfilled customer orders</li>
+                  <li>Collaborated with team members</li>
+                  <li>Disassembled and cleaned equipment</li>
+                </ul>	
+              </td>
+              <td>Summer 2020 - Winter 2020</td>
+          </tr>
+          <tr>
+              <td>Noodles and Company, Longmont, CO</td>
+              <td>
+                <i>Cook and Cleaner</i>
+                <ul>
+                  <li>Maintained cleanliness standards for customers through daily cleaning</li>
+                  <li>Participated with fellow team members to get meals out quickly and efficiently</li>
+                </ul>
+              </td>
+              <td>Winter 2019</td>
+          </tr>
+        </tbody>
+      </table>
+  
+    <hr class="uk-divider-small">
+
+    <!--Skills-->
+    <table class="uk-table">
+      <thead>
+          <tr>
+              <th>Skills</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+            <td>Proficient in C++, C, and Python programming languages</td>
+          </tr>
+          <tr>
+            <td>Front end, back end, UX/UI development experience</td>
+          </tr>
+          <tr>
+            <td>Agile Development</td>
+          </tr>
+          <tr>
+            <td>Web Development</td>
+          </tr>
+          <tr>
+            <td>Data Structures</td>
+          </tr>
+          <tr>
+            <td>Debugging</td>
+          </tr>
+      </tbody>
+    </table>
+    <hr class="uk-divider-small">
+
+    <!--Personal Interests-->
+    <table class="uk-table">
+      <thead>
+          <tr>
+              <th>Personal Interests</th>
+              <th></th>
+              <th>Year(s)</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+            <td>Participated in Lucid Programming Competition</td>
+            <td></td>
+            <td>Octuber 30th, 2021</td>
+          </tr>
+          <tr>
+            <td>Participated in Suzuki violin</td>
+            <td></td>
+            <td>2007-2017</td>
+          </tr>
+          <tr>
+            <td>Participated in Longmont High School Marching and Concert Bands</td>
+            <td></td>
+            <td>2018-2019</td>
+          </tr>
+          <tr>
+            <td>Letter for playing High School Golf for all 4 years of High School</td>
+            <td></td>
+            <td>2018-2021</td>
+          </tr>
+      </tbody>
+    </table>
+
+    
+    <!--Footer-->
+      <footer class="footer">
+        <div class="container text-center">
+          <a href="https://twitter.com/IanSinColorado"><i class="fa fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/iansincolorado/"><i class="fa fa-linkedin"></i></a>
+        </div>
+      </footer>
+  </body>
+</html>
