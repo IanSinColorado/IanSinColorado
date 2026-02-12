@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel | Ian Stewart </title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo">Ian Stewart</div>
+            <div class="nav-links">
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="travel.html" class="active">Travel</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+                <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode" aria-pressed="false"><span class="theme-indicator" aria-hidden="true"></span><span class="theme-label">Dark</span></button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Travel</h1>
+            <p>Going to new places and seeing how people live and what they do broadens perspectives and inspires better solutions. Here are the places that have shaped my worldview.</p>
+        </div>
+    </section>
+
+    <section class="travel-section">
+        <div class="container">
+            <div id="map-container">
+                <div id="travel-map" aria-label="Map of places visited"></div>
+            </div>
+            
+            <h2 style="margin-top: 3rem;">Places Visited</h2>
+            <div id="travel-list" class="travel-list"></div>
+            <div>
+                <h3 style="margin-top: 2rem;">Map Icon Credits</h3>
+                <p><a class="travel-credit" href="https://www.flaticon.com/free-icons/toy" title="toy icons">Childhood icon created by Darius Dan - Flaticon</a></p>
+                <p><a class="travel-credit" href="https://www.flaticon.com/free-icons/vacation" title="vacation icons">Vacation icon created by Freepik - Flaticon</a></p>
+                <p><a class="travel-credit" href="https://www.flaticon.com/free-icons/family" title="family icons">Family icon created by Flat Icons - Flaticon</a></p>
+                <p><a class="travel-credit" href="https://www.flaticon.com/free-icons/business-and-finance" title="business and finance icons">Work icon created by Putra Arif Munazar - Flaticon</a></p>
+                <p><a class="travel-credit" href="https://www.flaticon.com/free-icons/relationship" title="relationship icons">Friends icon created by Freepik - Flaticon</a></p>
+                <p><a class="travel-credit" href="https://www.flaticon.com/free-icons/concert" title="concert icons">Concert icon created by Freepik - Flaticon</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Ian Stewart. Built with care and deployed with GitHub Pages.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="script.js"></script>
+</body>
+</html>
