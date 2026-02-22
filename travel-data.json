@@ -30,7 +30,7 @@
       "date": "June 2019",
       "fulldate": "2019-06-01",
       "description": "One of the coolest places I’ve ever seen in real life! Medieval abbey on an island; tidal causeway. We toured the entire fort and made it up to the top, where there was a cathedral.",
-      "tags": ["Family", "Fun", "Vacation"],
+      "tags": ["Family", "Fun", "Vacation", "History"],
       "place": "Le Mont-Saint-Michel"
     },
     {
@@ -41,7 +41,7 @@
       "date": "June 2019",
       "fulldate": "2019-06-01",
       "description": "Family trip to Normandy! We stayed in a castle and explored WWII history, museums, cemeteries, and swam in the beach. Visited Omaha Beach.",
-      "tags": ["Family", "Fun", "Vacation"],
+      "tags": ["Family", "Fun", "Vacation", "History"],
       "place": "The Castle we stayed in"
     },
     {
@@ -85,7 +85,7 @@
       "date": "March 2025",
       "fulldate": "2025-03-01",
       "description": "Spring break family trip exploring ancient ruins and art. Colosseum was just a 3 block walk away from where we stayed and it was incredible to see ancient structures and modern city people coexisting.",
-      "tags": ["Family", "Fun", "Vacation"],
+      "tags": ["Family", "Fun", "Vacation", "History"],
       "place": "Apartment in Rome"
     },
     {
@@ -96,7 +96,7 @@
       "date": "March 2025",
       "fulldate": "2025-03-01",
       "description": "We took a day-trip on a high-speed train from Rome to Florence. Got a tour of the city and a few art museums.",
-      "tags": ["Family", "Fun", "Vacation"],
+      "tags": ["Family", "Fun", "Vacation", "History"],
       "place": "Cathedral of Santa Maria del Fiore"
     },
     {
@@ -107,7 +107,7 @@
       "date": "March 2025",
       "fulldate": "2025-03-01",
       "description": "We walked from our hotel to the Vatican and got a tour of the museums and Michelangelo’s Sistine Chapel.",
-      "tags": ["Family", "Fun", "Vacation"],
+      "tags": ["Family", "Fun", "Vacation", "History"],
       "place": "Inside the Vatican"
     },
     {
@@ -162,7 +162,7 @@
       "date": "Winter 2024",
       "fulldate": "2024-12-01",
       "description": "Eldora Ski resort is the best! I learned to ski here as a kid and have gone back during college with friends and family.",
-      "tags": ["Childhood", "Family", "Fun"],
+      "tags": ["Childhood", "Family", "Fun", "Ski"],
       "place": "Eldora Mountain"
     },
     {
@@ -195,7 +195,7 @@
       "date": "March 2023",
       "fulldate": "2023-03-01",
       "description": "Day-trip to the main city from Tybee Island. Will never forget The Haunt - a restaurant that foraged for their own mushrooms in the Georgia woods and served it to their customers! They had foraging licenses.",
-      "tags": ["Family", "Fun", "Vacation"],
+      "tags": ["Family", "Fun", "Vacation", "History"],
       "place": "The Haunt (Permanently closed)"
     },
     {
@@ -239,7 +239,7 @@
       "date": "June 2019",
       "fulldate": "2019-06-01",
       "description": "Landed in Charles de Gaulle and drove past the Eiffel Tower to get to Normandy",
-      "tags": ["Family", "Fun", "Vacation"],
+      "tags": ["Family", "Fun"],
       "place": "Eiffel Tower"
     },
     {
@@ -305,7 +305,7 @@
       "date": "May 2021",
       "fulldate": "2021-05-01",
       "description": "Longmont is my hometown! I went to Longmont High School, played in the band, got a letter in Golf, and was Valedictorian of my graduating class. Go Trojans!",
-      "tags": ["Friends", "Fun", "School"],
+      "tags": ["Childhood", "Friends", "Fun", "School"],
       "place": "Longmont High School"
     },
     {
@@ -338,7 +338,7 @@
       "date": "March 2017",
       "fulldate": "2017-03-01",
       "description": "8th grade field trip! We walked around the Lincoln Memorial and National Monument and cruised down the Potomac River.",
-      "tags": ["Fun", "Vacation"],
+      "tags": ["Fun", "Vacation", "History"],
       "place": "Lincoln Memorial"
     },
     {

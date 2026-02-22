@@ -74,18 +74,25 @@ nav .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    overflow: hidden; /* clip content so the nav never widens the page */
+    gap: 1rem;
 }
 
 nav .logo {
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--primary-green);
+    flex-shrink: 0; /* logo never gets squished */
+    white-space: nowrap;
 }
 
 nav .nav-links {
     display: flex;
     align-items: center;
     gap: 1.5rem;
+    min-width: 0;        /* allow this flex child to shrink below its content size */
+    overflow: hidden;    /* contain the scrollable ul */
+    flex: 1 1 auto;      /* take up available space, but yield to the logo */
 }
 
 /* Make the navigation links horizontally scrollable on narrow viewports
@@ -133,6 +140,8 @@ nav a {
     font-weight: 600;
     cursor: pointer;
     transition: border-color 0.3s, box-shadow 0.3s, transform 0.2s;
+    flex-shrink: 0; /* always fully visible alongside the scrolling links */
+    white-space: nowrap;
 }
 
 .theme-toggle:hover {

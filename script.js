@@ -106,6 +106,20 @@ const concertIcon = L.icon({
     popupAnchor: [0, -32]   // popup offset
 });
 
+const skiIcon = L.icon({
+iconUrl: 'images/icons/SkiIcon.png',
+    iconSize: [32, 32],     // width, height
+    iconAnchor: [16, 32],   // point of the icon that sits on the lat/lng
+    popupAnchor: [0, -32]   // popup offset
+});
+
+const historyIcon = L.icon({
+iconUrl: 'images/icons/HistoryIcon.png',
+    iconSize: [32, 32],     // width, height
+    iconAnchor: [16, 32],   // point of the icon that sits on the lat/lng
+    popupAnchor: [0, -32]   // popup offset
+});
+
 const travelMapElement = document.getElementById('travel-map');
 const travelListElement = document.getElementById('travel-list');
 const travelFallbackElement = document.getElementById('map-fallback');
@@ -266,15 +280,22 @@ const initTravelMap = async () => {
             map.fitBounds(bounds, { padding: [40, 40] });
         }
 
-        // TODO: Different marker icons for different tags
         sortedPlaces.forEach(place => {
             if (!Number.isFinite(place.lat) || !Number.isFinite(place.lng)) {
                 return;
             }
             
             // TODO: Hierarchy of different marker icons based on tags - can only pick one icon per place
-            if (place.tags && place.tags.includes('Childhood')) {
+            if (place.tags && place.tags.includes('Ski')) {
+                const marker = L.marker([place.lat, place.lng], { icon: skiIcon }).addTo(map);
+                marker.bindPopup(buildPopupContent(place));
+                return;
+            } else if (place.tags && place.tags.includes('Childhood')) {
                 const marker = L.marker([place.lat, place.lng], { icon: childhoodIcon }).addTo(map);
+                marker.bindPopup(buildPopupContent(place));
+                return;
+            } else if (place.tags && place.tags.includes('History')) {
+                const marker = L.marker([place.lat, place.lng], { icon: historyIcon }).addTo(map);
                 marker.bindPopup(buildPopupContent(place));
                 return;
             } else if (place.tags && place.tags.includes('Concert')) {
@@ -303,9 +324,6 @@ const initTravelMap = async () => {
                 marker.bindPopup(buildPopupContent(place));
                 return;
             }
-
-            const marker = L.marker([place.lat, place.lng]).addTo(map);
-            marker.bindPopup(buildPopupContent(place));
         });
         if (travelFallbackElement) {
             travelFallbackElement.hidden = true;
