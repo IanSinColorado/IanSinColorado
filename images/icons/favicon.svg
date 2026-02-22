@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="80mm"
+   height="80.000008mm"
+   viewBox="0 0 80 80.000008"
+   version="1.1"
+   id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1">
+    <g
+       id="g7"
+       clip-path="none"
+       style="fill:#98c734;fill-opacity:1;fill-rule:nonzero">
+      <g
+         id="g6"
+         style="fill:#98c734;fill-opacity:1;fill-rule:nonzero">
+        <circle
+           style="fill:#98c734;fill-opacity:1;fill-rule:nonzero;stroke-width:50.8"
+           id="path1"
+           cx="40"
+           cy="40"
+           r="40" />
+      </g>
+    </g>
+    <use
+       x="0"
+       y="0"
+       xlink:href="#g6"
+       id="use7" />
+    <g
+       id="g5"
+       clip-path="none"
+       transform="translate(-0.85531617,1.8771629)">
+      <g
+         id="g4">
+        <circle
+           style="fill:#000000;stroke-width:50.8"
+           id="path2"
+           cx="40.855316"
+           cy="38.122837"
+           r="38" />
+      </g>
+    </g>
+    <use
+       x="0"
+       y="0"
+       xlink:href="#g4"
+       id="use5"
+       transform="translate(-0.85531617,1.8771629)" />
+    <rect
+       style="fill:#98c734;fill-opacity:1;stroke-width:50.8"
+       id="rect8"
+       width="8"
+       height="45"
+       x="36"
+       y="17.5"
+       clip-path="none" />
+    <path
+       id="rect9-5-5"
+       transform="matrix(1.1865203,0,0,1,-7.460812,4.6296368)"
+       d="m 26.400439,9.55235 h 27.199122 a 2.9254459,2.9254459 45 0 1 2.925446,2.925446 v 0.785135 a 2.9254459,2.9254459 135 0 1 -2.925446,2.925445 H 26.400439 A 2.9254459,2.9254459 45 0 1 23.474993,13.262931 V 12.477796 A 2.9254459,2.9254459 135 0 1 26.400439,9.55235 Z"
+       style="fill:#98c734;fill-opacity:1;stroke-width:50.8"
+       clip-path="none" />
+    <path
+       id="rect9-5-5-4"
+       transform="matrix(1.1865203,0,0,1,-7.460812,49.629714)"
+       d="m 26.649993,9.55235 h 26.700014 a 3.1749999,3.1749999 45 0 1 3.175,3.175 v 0.286027 a 3.1749999,3.1749999 135 0 1 -3.175,3.174999 H 26.649993 a 3.1749999,3.1749999 45 0 1 -3.175,-3.174999 V 12.72735 a 3.1749999,3.1749999 135 0 1 3.175,-3.175 z"
+       style="fill:#98c734;fill-opacity:1;stroke-width:50.8"
+       clip-path="none" />
+  </g>
+</svg>
