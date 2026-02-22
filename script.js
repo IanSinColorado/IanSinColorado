@@ -146,21 +146,21 @@ const buildPopupContent = place => {
 
     if (place.city && place.country) {
         const city = document.createElement('strong');
-        city.className = 'travel-city';
+        city.className = 'travel-city-popup';
         city.textContent = place.city + ', ' + place.country;
         wrapper.appendChild(city);
     }
 
     if (place.date) {
         const date = document.createElement('div');
-        date.className = 'travel-meta';
+        date.className = 'travel-meta-popup';
         date.textContent = place.date;
         wrapper.appendChild(date);
     }
 
     if (place.description) {
         const description = document.createElement('div');
-        description.className = 'travel-description';
+        description.className = 'travel-description-popup';
         description.textContent = place.description;
         wrapper.appendChild(description);
     }
@@ -172,7 +172,7 @@ const buildPopupContent = place => {
 
     if (place.place) {
         const placeLine = document.createElement('div');
-        placeLine.className = 'travel-place';
+        placeLine.className = 'travel-place-popup';
         placeLine.textContent = place.place;
         wrapper.appendChild(placeLine);
     }

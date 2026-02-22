@@ -483,6 +483,32 @@ nav a.active {
     margin-bottom: 0.4rem;
 }
 
+/* Hardcoded light-mode popup equivalents — safe for use inside map popups
+   which render outside the [data-theme] scope and always have a white background */
+.travel-city-popup {
+    display: block;
+    margin-bottom: 0.2rem;
+    color: #1b263b;
+}
+
+.travel-description-popup {
+    color: #415a77;
+    font-size: 0.9rem;
+    margin-bottom: 0.4rem;
+}
+
+.travel-meta-popup {
+    font-size: 0.85rem;
+    color: #415a77;
+    margin-bottom: 0.4rem;
+}
+
+.travel-place-popup {
+    font-size: 0.9rem;
+    color: #415a77;
+    margin-top: 0.2rem;
+}
+
 .travel-tags {
     display: flex;
     flex-wrap: wrap;
