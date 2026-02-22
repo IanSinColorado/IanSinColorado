@@ -187,6 +187,16 @@ nav a.active {
     display: flex;
     align-items: center;
     padding-top: 6rem;
+    background-image: url('images/travel/buttonRock.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    background-color: var(--bg-color);
+    border-radius: 2rem;
+    padding: 0.5rem;
+    padding-bottom: 1rem;
 }
 
 .hero-content h1 {

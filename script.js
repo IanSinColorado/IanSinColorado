@@ -120,6 +120,13 @@ iconUrl: 'images/icons/HistoryIcon.png',
     popupAnchor: [0, -32]   // popup offset
 });
 
+const whaleIcon = L.icon({
+iconUrl: 'images/icons/WhaleIcon.png',
+    iconSize: [32, 32],     // width, height
+    iconAnchor: [16, 32],   // point of the icon that sits on the lat/lng
+    popupAnchor: [0, -32]   // popup offset
+});
+
 const travelMapElement = document.getElementById('travel-map');
 const travelListElement = document.getElementById('travel-list');
 const travelFallbackElement = document.getElementById('map-fallback');
@@ -288,6 +295,10 @@ const initTravelMap = async () => {
             // TODO: Hierarchy of different marker icons based on tags - can only pick one icon per place
             if (place.tags && place.tags.includes('Ski')) {
                 const marker = L.marker([place.lat, place.lng], { icon: skiIcon }).addTo(map);
+                marker.bindPopup(buildPopupContent(place));
+                return;
+            } else if (place.tags && place.tags.includes('Whales')) {
+                const marker = L.marker([place.lat, place.lng], { icon: whaleIcon }).addTo(map);
                 marker.bindPopup(buildPopupContent(place));
                 return;
             } else if (place.tags && place.tags.includes('Childhood')) {
