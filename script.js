@@ -127,6 +127,13 @@ iconUrl: 'images/icons/WhaleIcon.png',
     popupAnchor: [0, -32]   // popup offset
 });
 
+const roadtripIcon = L.icon({
+iconUrl: 'images/icons/RoadtripIcon.png',
+    iconSize: [32, 32],     // width, height
+    iconAnchor: [16, 32],   // point of the icon that sits on the lat/lng
+    popupAnchor: [0, -32]   // popup offset
+});
+
 const travelMapElement = document.getElementById('travel-map');
 const travelListElement = document.getElementById('travel-list');
 const travelFallbackElement = document.getElementById('map-fallback');
@@ -311,6 +318,10 @@ const initTravelMap = async () => {
                 return;
             } else if (place.tags && place.tags.includes('Concert')) {
                 const marker = L.marker([place.lat, place.lng], { icon: concertIcon }).addTo(map);
+                marker.bindPopup(buildPopupContent(place));
+                return;
+            } else if (place.tags && place.tags.includes('Roadtrip')) {
+                const marker = L.marker([place.lat, place.lng], { icon: roadtripIcon }).addTo(map);
                 marker.bindPopup(buildPopupContent(place));
                 return;
             } else if (place.tags && place.tags.includes('Vacation')) {
